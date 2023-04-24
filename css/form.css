@@ -23,35 +23,26 @@ h3{
 
 
 
-.check{
+.submitButton{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 ul li{
-    list-style: none;
     display: flex;
     justify-content: center;
-    align-items: center; 
-    font-size: 17px;
-    padding: 12px 8px 12px;
-    user-select: none;
-    cursor: pointer;
-    position: relative;
+    align-items: center;
+    
 }
 
-ul li::before{
-    content: "";
-    position: absolute;
-    height: 28px;
-    width: 28px;
-    border-radius: 50%;
-    background-size: cover;
-    background-position: center;
-    top: 12px;
-    left: 8px;
+.border {
+    border: 2px solid red;
+  }
 
-}
+
+
+
 
 *{
     margin: 0;
@@ -182,8 +173,8 @@ ul li::before{
   }
   .wrapper ul li a:hover{
     color: #1a73e8;
-  }
-  input[type="checkbox"]{
+}
+.hideThis[type="checkbox"]{
     display: none;
   }
   .content{
