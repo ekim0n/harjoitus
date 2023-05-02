@@ -36,11 +36,23 @@ ul li{
     
 }
 
-.border {
-    border: 2px solid red;
-  }
 
 
+span{
+ 
+ 
+  
+  font-size: 22px;
+  
+  
+
+}
+
+span:hover{
+  background: #edeef0;
+  border-radius: 50%;
+  cursor: pointer;
+}
 
 
 
