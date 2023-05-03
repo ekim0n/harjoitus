@@ -27,20 +27,20 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  
 }
 
 .submit {
   margin-right: 10px;
-  border-radius: 10%;
   text-align: center;
+  padding: 10px 20px;
 
 }
 
 .clear {
   margin-right: 10px;
-  border-radius: 10%;
   text-align: center;
+  padding: 10px 20px;
 }
 
 ul li {
