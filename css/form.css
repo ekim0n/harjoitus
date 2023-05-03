@@ -31,9 +31,16 @@ h3{
 }
 
 .submit{
+  margin-right: 10px;
   border-radius: 10%;
   text-align: center;
 
+}
+
+.clear{
+  margin-right: 10px;
+  border-radius: 10%;
+  text-align: center;
 }
 
 ul li{
