@@ -1,7 +1,6 @@
 body{
   margin: 50px;
-  padding: 50px;
-  
+  padding: 50px;  
   width: 100%;
   background: linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
   background-size: 300% 300%;
@@ -29,13 +28,7 @@ h3{
   align-items: center;
 }
 
-/*.p-5{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}*/
+
 
 *{
   margin: 0;
