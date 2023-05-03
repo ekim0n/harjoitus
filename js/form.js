@@ -37,7 +37,8 @@ function submit() {
         let span = document.createElement("span");
         span.innerHTML = "\u00d7";
         li.appendChild(span);
-
+        
+        //clear task from the list
         span.addEventListener("click", function () {
             li.remove();
             saveData();

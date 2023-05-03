@@ -51,8 +51,9 @@ ul li {
 }
 
 
-li.important {
-  border: 2px solid red;
+.important{
+  margin-right: 10px;
+  font-size: 22px;
 }
 
 
@@ -60,7 +61,7 @@ li.important {
 span {
 
 
-
+ 
   font-size: 22px;
 
 
