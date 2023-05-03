@@ -27,6 +27,11 @@ function submit(){
         const toDoList = document.getElementById("list");
         const li = document.createElement("li");
         li.textContent = result;
+
+        if (check.checked) {
+            li.style.border = "2px solid red";
+        }
+
         toDoList.appendChild(li);
         let span = document.createElement("span");
         span.innerHTML = "\u00d7";
@@ -35,6 +40,7 @@ function submit(){
         span.addEventListener("click", function() {
             li.remove();
             saveData();
+            
         });
         } 
 
@@ -42,9 +48,12 @@ function submit(){
 
         
 
+        
+
    
     document.getElementById("name").value = "";
     document.getElementById("todo").value = "";
+    check.checked = false;
     
     
 

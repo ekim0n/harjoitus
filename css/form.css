@@ -27,6 +27,13 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+  
+}
+
+.submit{
+  border-radius: 10%;
+  text-align: center;
+
 }
 
 ul li{
@@ -34,6 +41,11 @@ ul li{
     justify-content: center;
     align-items: center;
     
+}
+
+
+li.important {
+  border: 2px solid red;
 }
 
 
