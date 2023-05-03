@@ -1,5 +1,6 @@
 body {
-  margin: 50px;
+  max-width: 960px;
+  margin: auto;
   padding: 50px;
   width: 100%;
   background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
